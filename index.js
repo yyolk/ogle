@@ -15,7 +15,7 @@ exports.handler = function(event, context) {
 
     switch (event.action){
         case 'create':
-            return proxy(event.appointment);
+            // return proxy(event);
             break;
         default:
             return context.fail(new Error("Error: Invalid path."));
