@@ -6,3 +6,7 @@ an og static site generator that utilizes AWS api gateway + lambda + dynamodb
 
 
 using [surfeit](https://github.com/yyolk/surfeit) ogle can also show the site at any point in time; if the time span is _reasonably popular_ that is also cached through ogle mechanics to provide best performance
+
+models are written in [argentavis](https://github.com/yyolk/argentavis)
+
+and all logic is built through [dreadnaught](https://github.com/yyolk/dreadnaught) adapters
