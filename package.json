@@ -26,5 +26,8 @@
     "JSONPath": "^0.10.0",
     "qs": "^4.0.0",
     "request": "^2.60.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1.42"
   }
 }
